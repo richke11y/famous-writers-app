@@ -5,6 +5,7 @@ export default StyleSheet.create({
 		flex: 1,
 		paddingHorizontal: 20,
 		backgroundColor: '#FFFFFF',
-		color: '#000000'
+		color: '#000000',
+		fontFamily: 'HelveticaNeue',
 	}
 });
