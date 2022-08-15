@@ -2,7 +2,7 @@
 
 ### 0.0.4
 
-- Upgrading / updating Expo SDK and CLI.
+- Upgraded Expo SDK / CLI to version 46.0.0.
 
 ### 0.0.3
 
