@@ -2,18 +2,22 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
 	header: {
-		// flex: 1,
+		height: 80,
 		flexDirection: 'row',
 		justifyContent: 'space-between',
 		paddingHorizontal: 20,
-		paddingVertical: 20,
-		backgroundColor: '#FFFFFF',
-		borderBottomColor: '#E0E0E0',
-		borderBottomWidth: 1
+		backgroundColor: '#FFFFFF'
 	},
 	headerTitle: {
-		// fontFamily: 'HelveticaNeue-Bold',
-		fontSize: 24,
-		lineHeight: 26
+		height: 80,
+		flexDirection: 'column',
+		justifyContent: 'center'
+	},
+	headerTitleText: {
+		fontFamily: 'Menlo',
+		fontSize: 26,
+		fontWeight: '800',
+		lineHeight: 28,
+		textTransform: 'uppercase'
 	}
 });
