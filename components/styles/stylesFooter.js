@@ -2,17 +2,20 @@ import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
 	footer: {
-		// flex: 1,
-		// flexDirection: 'row',
-		// justifyContent: 'space-between',
-		paddingHorizontal: 20,
-		paddingVertical: 20,
-		backgroundColor: '#FFFFFF',
-		borderTopColor: '#E0E0E0',
-		borderTopWidth: 1
+		flexDirection: 'row',
+		justifyContent: 'space-between',
+		alignContent: 'center',
+		paddingHorizontal: 30,
+		paddingVertical: 15,
+		backgroundColor: '#FFFFFF'
 	},
-	footerText: {
-		fontSize: 14,
-		lineHeight: 24
+	footerTab: {
+		paddingVertical: 15
+	},
+	footerTabLabel: {
+		fontFamily: 'Menlo',
+		fontSize: 12,
+		lineHeight: 24,
+		textTransform: 'uppercase'
 	}
 });
